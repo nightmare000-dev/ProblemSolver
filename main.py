@@ -15,7 +15,7 @@ from pages.helperPage import Helper
 from pages.solver import Solver
 from vocabulary import *
 
-os.system("clear")
+os.system("cls")
 
 fgl = Figlet(font="slant", justify="center")  # initialization Figlet
 cls = Console()  # initialization rich.console
@@ -60,4 +60,4 @@ if __name__ == "__main__":
         menu_obj = Menu()
         menu_obj.menu_page()
         cls.input(ENDING)
-        os.system("clear")
+        os.system("cls")
